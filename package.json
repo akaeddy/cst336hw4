@@ -1,0 +1,26 @@
+{
+  "name": "cst336-hw4",
+  "version": "1.0.0",
+  "description": "Edgar Paramo. HW CST 336",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "Edgar Paramo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaeddy"
+  },
+  "homepage": "https://github.com",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "node": "^12.13.0"
+  }
+}

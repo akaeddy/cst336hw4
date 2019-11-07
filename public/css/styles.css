@@ -1,0 +1,100 @@
+
+header {
+    text-align: center;
+    color: black;
+    font-family: 'Coda Caption', sans-serif;    
+    Font-size: 2em;
+
+
+    
+}
+body {
+    background-color:#C4C5C6;
+
+}
+
+.currentActiveLink {
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer {
+    text-align:center;
+    font-size: .8em;
+}
+
+
+/*----------------------------------*/
+/*flexbox Main display area + links */
+/*----------------------------------*/
+
+main {
+    display:flex !important;
+
+}
+.navLinks {
+    /*text-align: left;*/
+    flex: 1;
+    color: #2D4F6D;
+
+}
+.mainDisplay {
+    text-align: center;
+    flex:4;
+    /*border: 3px solid black;*/
+    color: black;
+    /*background-color: #3B444B;*/
+}
+
+.mainHeaderHR {
+    border-width:5px;
+}
+.linkSeparationHR {
+    border: 1px solid black;
+}
+
+
+
+.mainDisplayHeaderPlusPic {
+    display:flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    Font-size: 2em;
+    flex: 3;
+    margin: auto;
+}
+div div img {
+    flex:2;
+}
+
+
+h3 {
+    text-align:left;
+    /*border-bottom: 1px solid black;*/
+    
+    
+}
+
+div p{
+    text-align:left;
+}
+
+table {
+    table-layout: auto;
+}
+
+
+.identifier {
+    background-color: lime;
+}
+.RTR {
+    background-color: cyan;
+}
+.DLC {
+    background-color: yellow;
+}
+.dataField {
+    background-color: red;
+}
